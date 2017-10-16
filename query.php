@@ -55,13 +55,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="index.php" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="index.php" class="w3-bar-item w3-button" style="width:25% !important">Home</a>
     <a href="stemming.php" class="w3-bar-item w3-button" style="width:25% !important">Stemming</a>
     <a href="upload.php" class="w3-bar-item w3-button" style="width:25% !important">PDF Upload</a>
     <a href="hasil_tokenisasi.php" class="w3-bar-item w3-button" style="width:25% !important">Hasil Tokenisasi</a>
-    <a href="hitungbobot.php" class="w3-bar-item w3-button" style="width:25% !important">Hitung Bobot</a>
-    <a href="hitungvektor.php" class="w3-bar-item w3-button" style="width:25% !important">Hitung Vektor</a>
+    <a href="hitungbobotvektor.php" class="w3-bar-item w3-button" style="width:25% !important">Hitung Bobot dan Vektor</a>
     <a href="query.php" class="w3-bar-item w3-button" style="width:25% !important">Query</a>
+    <a href="download.php" class="w3-bar-item w3-button" style="width:25% !important">Cari Dokuments</a>
   </div>
 </div>
 
