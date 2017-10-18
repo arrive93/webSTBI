@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-<title>Cari Documents STBI</title>
+<title>Makalah STBI</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -46,15 +46,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>Query</p>
   </a>
-  <a href="download.php" class="w3-bar-item w3-button w3-padding-large w3-black">
+  <a href="download.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>Cari Documents</p>
   </a>
-  <a href="makalah.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="makalah.php" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>Makalah</p>
   </a>
-  
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
@@ -80,28 +79,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </header>
 
   <!-- About Section -->
+  <center>
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">Cari Documents</h2>
-    <hr style="width:235px" class="w3-opacity">
+    <h2 class="w3-text-light-grey">Makalah STBI</h2>
+    <hr style="width:225px" class="w3-opacity">
     
-   
-<?php
-$host='localhost';
-$user='id3231518_root';
-$pass='123456';
-$database='id3231518_stbi';
+    
 
-$conn=new mysqli($host,$user,$pass,$database) or die('MySql Tidak Connect');
-
-  $query = "SELECT * FROM upload ORDER BY id_upload DESC";
-  $hasil = mysqli_query($conn, $query);
-
-  while ($r = mysqli_fetch_array($hasil)){
-    echo "Nama File : <b>$r[nama_file]</b> <br>";
-    echo "Deskripsi : $r[deskripsi] <br>";
-    echo "<a href=\"files/$r[nama_file]\" download='$r[nama_file]'>Download File</a><hr><br>";
-  }
-?>
+	
+	
+<embed src="./dokumen/makalah.pdf" width="1000" height="1100"> </embed>
+<br>
 
 
 <!-- END PAGE CONTENT -->
